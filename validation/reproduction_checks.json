@@ -1,0 +1,2419 @@
+{
+  "passed": true,
+  "checks": 402,
+  "failed": [],
+  "details": [
+    {
+      "check": "RQ1.common_humans",
+      "actual": 10808,
+      "expected": 10808,
+      "passed": true
+    },
+    {
+      "check": "RQ1.all-known.nodes",
+      "actual": 294083,
+      "expected": 294083,
+      "passed": true
+    },
+    {
+      "check": "RQ1.all-known.edges",
+      "actual": 546167,
+      "expected": 546167,
+      "passed": true
+    },
+    {
+      "check": "RQ1.all-known.account_nodes",
+      "actual": 25573,
+      "expected": 25573,
+      "passed": true
+    },
+    {
+      "check": "RQ1.all-known.pr_nodes",
+      "actual": 268510,
+      "expected": 268510,
+      "passed": true
+    },
+    {
+      "check": "RQ1.human-only.nodes",
+      "actual": 138506,
+      "expected": 138506,
+      "passed": true
+    },
+    {
+      "check": "RQ1.human-only.edges",
+      "actual": 151925,
+      "expected": 151925,
+      "passed": true
+    },
+    {
+      "check": "RQ1.human-only.account_nodes",
+      "actual": 10808,
+      "expected": 10808,
+      "passed": true
+    },
+    {
+      "check": "RQ1.human-only.pr_nodes",
+      "actual": 127698,
+      "expected": 127698,
+      "passed": true
+    },
+    {
+      "check": "RQ1.per_seed_count",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "check": "RQ1.per_seed_unique",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "check": "RQ1.per_seed_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed0.nmi",
+      "actual": 0.7608058451866274,
+      "expected": 0.7608058451866274,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed0.ari",
+      "actual": 0.1022531413728843,
+      "expected": 0.1022531413728843,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed1.nmi",
+      "actual": 0.7578321626975634,
+      "expected": 0.7578321626975634,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed1.ari",
+      "actual": 0.09972530262215955,
+      "expected": 0.09972530262215955,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed2.nmi",
+      "actual": 0.7572061638285886,
+      "expected": 0.7572061638285886,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed2.ari",
+      "actual": 0.1021029316223505,
+      "expected": 0.1021029316223505,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed3.nmi",
+      "actual": 0.7581780703620715,
+      "expected": 0.7581780703620715,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed3.ari",
+      "actual": 0.09988608225259987,
+      "expected": 0.09988608225259987,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed4.nmi",
+      "actual": 0.7562030271778456,
+      "expected": 0.7562030271778456,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed4.ari",
+      "actual": 0.10365781359365123,
+      "expected": 0.10365781359365123,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed42.nmi",
+      "actual": 0.7608121647181704,
+      "expected": 0.7608121647181704,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed42.ari",
+      "actual": 0.10366002532226563,
+      "expected": 0.10366002532226563,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed123.nmi",
+      "actual": 0.7476414213004938,
+      "expected": 0.7476414213004938,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed123.ari",
+      "actual": 0.0973839114542432,
+      "expected": 0.0973839114542432,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed2024.nmi",
+      "actual": 0.758706719629027,
+      "expected": 0.758706719629027,
+      "passed": true
+    },
+    {
+      "check": "RQ1.seed2024.ari",
+      "actual": 0.10527618985423162,
+      "expected": 0.10527618985423162,
+      "passed": true
+    },
+    {
+      "check": "RQ1.eight_seeds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.summary.nmi.mean",
+      "actual": 0.7571731968625485,
+      "expected": 0.7571731968625485,
+      "passed": true
+    },
+    {
+      "check": "RQ1.summary.nmi.sd",
+      "actual": 0.0039056206469186843,
+      "expected": 0.0039056206469186843,
+      "passed": true
+    },
+    {
+      "check": "RQ1.summary.ari.mean",
+      "actual": 0.10174317476179824,
+      "expected": 0.10174317476179824,
+      "passed": true
+    },
+    {
+      "check": "RQ1.summary.ari.sd",
+      "actual": 0.002417013178965648,
+      "expected": 0.002417013178965648,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.all-known.vertex_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.all-known.edges_and_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.all-known.edge_weights",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.all-known.seed42_memberships",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.human-only.vertex_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.human-only.edges_and_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.human-only.edge_weights",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ1.figure_graph.human-only.seed42_memberships",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ2.eligible_prs",
+      "actual": 15899,
+      "expected": 15899,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repositories",
+      "actual": 3012,
+      "expected": 3012,
+      "passed": true
+    },
+    {
+      "check": "RQ2.model_count",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "check": "RQ2.model_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.hit@1",
+      "actual": 0.3529152776904208,
+      "expected": 0.3529152776904208,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.hit@3",
+      "actual": 0.4802188816906724,
+      "expected": 0.4802188816906724,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.hit@5",
+      "actual": 0.543493301465501,
+      "expected": 0.543493301465501,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.hit@10",
+      "actual": 0.6097867790427071,
+      "expected": 0.6097867790427071,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.hit@20",
+      "actual": 0.6319265362601422,
+      "expected": 0.6319265362601422,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.recall@1",
+      "actual": 0.3088779168501164,
+      "expected": 0.3088779168501164,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.recall@3",
+      "actual": 0.42695767029372916,
+      "expected": 0.42695767029372916,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.recall@5",
+      "actual": 0.4946789106233096,
+      "expected": 0.4946789106233096,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.recall@10",
+      "actual": 0.5711480805920707,
+      "expected": 0.5711480805920707,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.recall@20",
+      "actual": 0.5991541845998102,
+      "expected": 0.5991541845998102,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_all.mrr@10",
+      "actual": 0.4322625112690526,
+      "expected": 0.4322625112690526,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.hit@1",
+      "actual": 0.4268821938486697,
+      "expected": 0.4268821938486697,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.hit@3",
+      "actual": 0.5376438769733946,
+      "expected": 0.5376438769733946,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.hit@5",
+      "actual": 0.5864519781118309,
+      "expected": 0.5864519781118309,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.hit@10",
+      "actual": 0.6170828353984528,
+      "expected": 0.6170828353984528,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.hit@20",
+      "actual": 0.6336247562739795,
+      "expected": 0.6336247562739795,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.recall@1",
+      "actual": 0.36606704824202785,
+      "expected": 0.36606704824202785,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.recall@3",
+      "actual": 0.4870851416231629,
+      "expected": 0.4870851416231629,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.recall@5",
+      "actual": 0.5421347254544311,
+      "expected": 0.5421347254544311,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.recall@10",
+      "actual": 0.579449591019501,
+      "expected": 0.579449591019501,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.recall@20",
+      "actual": 0.6012926838764943,
+      "expected": 0.6012926838764943,
+      "passed": true
+    },
+    {
+      "check": "RQ2.repo_frequency_human.mrr@10",
+      "actual": 0.49252014452341514,
+      "expected": 0.49252014452341514,
+      "passed": true
+    },
+    {
+      "check": "RQ2.relative_human_order_preserved",
+      "actual": 15899,
+      "expected": 15899,
+      "passed": true
+    },
+    {
+      "check": "RQ2.nonhuman_top10_slots",
+      "actual": 23348,
+      "expected": 23348,
+      "passed": true
+    },
+    {
+      "check": "RQ2.returned_top10_slots",
+      "actual": 81576,
+      "expected": 81576,
+      "passed": true
+    },
+    {
+      "check": "RQ3.active_accounts.n_repos",
+      "actual": 25402,
+      "expected": 25402,
+      "passed": true
+    },
+    {
+      "check": "RQ3.active_accounts.all_mean",
+      "actual": 2.180274648889759,
+      "expected": 2.180274648889759,
+      "passed": true
+    },
+    {
+      "check": "RQ3.active_accounts.human_mean",
+      "actual": 1.4022276123293818,
+      "expected": 1.4022276123293815,
+      "passed": true
+    },
+    {
+      "check": "RQ3.active_accounts.paired_delta",
+      "actual": 0.7780470365603773,
+      "expected": 0.7780470365603773,
+      "passed": true
+    },
+    {
+      "check": "RQ3.reviewer_count.n_repos",
+      "actual": 25402,
+      "expected": 25402,
+      "passed": true
+    },
+    {
+      "check": "RQ3.reviewer_count.all_mean",
+      "actual": 0.6051421640474958,
+      "expected": 0.6051421640474958,
+      "passed": true
+    },
+    {
+      "check": "RQ3.reviewer_count.human_mean",
+      "actual": 0.3331478922084629,
+      "expected": 0.3331478922084629,
+      "passed": true
+    },
+    {
+      "check": "RQ3.reviewer_count.paired_delta",
+      "actual": 0.2719942718390328,
+      "expected": 0.27199427183903274,
+      "passed": true
+    },
+    {
+      "check": "RQ3.review_hhi.n_repos",
+      "actual": 7846,
+      "expected": 7846,
+      "passed": true
+    },
+    {
+      "check": "RQ3.review_hhi.all_mean",
+      "actual": 0.67302705519254,
+      "expected": 0.67302705519254,
+      "passed": true
+    },
+    {
+      "check": "RQ3.review_hhi.human_mean",
+      "actual": 0.863145295905289,
+      "expected": 0.8631452959052891,
+      "passed": true
+    },
+    {
+      "check": "RQ3.review_hhi.paired_delta",
+      "actual": -0.19011824071274905,
+      "expected": -0.19011824071274908,
+      "passed": true
+    },
+    {
+      "check": "RQ3.k50.n_repos",
+      "actual": 7846,
+      "expected": 7846,
+      "passed": true
+    },
+    {
+      "check": "RQ3.k50.all_mean",
+      "actual": 1.2100679802821022,
+      "expected": 1.210067980282102,
+      "passed": true
+    },
+    {
+      "check": "RQ3.k50.human_mean",
+      "actual": 1.0534363135943559,
+      "expected": 1.0534363135943559,
+      "passed": true
+    },
+    {
+      "check": "RQ3.k50.paired_delta",
+      "actual": 0.15663166668774622,
+      "expected": 0.15663166668774622,
+      "passed": true
+    },
+    {
+      "check": "RQ3.response.all.n_prs",
+      "actual": 83074,
+      "expected": 83074,
+      "passed": true
+    },
+    {
+      "check": "RQ3.response.all.median_hours",
+      "actual": 0.5266666666666666,
+      "expected": 0.5266666666666666,
+      "passed": true
+    },
+    {
+      "check": "RQ3.response.human.n_prs",
+      "actual": 59694,
+      "expected": 59694,
+      "passed": true
+    },
+    {
+      "check": "RQ3.response.human.median_hours",
+      "actual": 1.353888888888889,
+      "expected": 1.353888888888889,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month_count",
+      "actual": 17,
+      "expected": 17,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2024-12",
+      "expected": "2024-12",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.active_accounts_all",
+      "actual": 2.9130434782608696,
+      "expected": 2.9130434782608696,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.active_accounts_human",
+      "actual": 0.782608695652174,
+      "expected": 0.782608695652174,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.reviewer_count_all",
+      "actual": 0.7391304347826086,
+      "expected": 0.7391304347826086,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.reviewer_count_human",
+      "actual": 0.6521739130434783,
+      "expected": 0.6521739130434783,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.review_hhi_all",
+      "actual": 0.9146656393861445,
+      "expected": 0.9146656393861445,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.review_hhi_human",
+      "actual": 0.9175974025974025,
+      "expected": 0.9175974025974025,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.k50_all",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.k50_human",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.n_repos_active_accounts",
+      "actual": 23.0,
+      "expected": 23.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.n_repos_reviewer_count",
+      "actual": 23.0,
+      "expected": 23.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.n_repos_review_hhi",
+      "actual": 11.0,
+      "expected": 11.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.n_repos_k50",
+      "actual": 11.0,
+      "expected": 11.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.response_median_hours_all",
+      "actual": 0.4661111111111111,
+      "expected": 0.4661111111111111,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.response_median_hours_human",
+      "actual": 0.5111111111111111,
+      "expected": 0.5111111111111111,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.n_response_prs_all",
+      "actual": 29.0,
+      "expected": 29.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2024-12.n_response_prs_human",
+      "actual": 26.0,
+      "expected": 26.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-01",
+      "expected": "2025-01",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.active_accounts_all",
+      "actual": 3.6176470588235294,
+      "expected": 3.6176470588235294,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.active_accounts_human",
+      "actual": 1.8235294117647058,
+      "expected": 1.8235294117647058,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.reviewer_count_all",
+      "actual": 1.2941176470588236,
+      "expected": 1.2941176470588236,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.reviewer_count_human",
+      "actual": 1.1911764705882353,
+      "expected": 1.1911764705882353,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.review_hhi_all",
+      "actual": 0.7607525144443232,
+      "expected": 0.7607525144443232,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.review_hhi_human",
+      "actual": 0.791223097332107,
+      "expected": 0.791223097332107,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.k50_all",
+      "actual": 1.146341463414634,
+      "expected": 1.146341463414634,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.k50_human",
+      "actual": 1.0975609756097562,
+      "expected": 1.0975609756097562,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.n_repos_active_accounts",
+      "actual": 68.0,
+      "expected": 68.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.n_repos_reviewer_count",
+      "actual": 68.0,
+      "expected": 68.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.n_repos_review_hhi",
+      "actual": 41.0,
+      "expected": 41.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.n_repos_k50",
+      "actual": 41.0,
+      "expected": 41.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.response_median_hours_all",
+      "actual": 1.063611111111111,
+      "expected": 1.063611111111111,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.response_median_hours_human",
+      "actual": 1.1316666666666666,
+      "expected": 1.1316666666666666,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.n_response_prs_all",
+      "actual": 165.0,
+      "expected": 165.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-01.n_response_prs_human",
+      "actual": 160.0,
+      "expected": 160.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-02",
+      "expected": "2025-02",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.active_accounts_all",
+      "actual": 3.0232558139534884,
+      "expected": 3.0232558139534884,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.active_accounts_human",
+      "actual": 1.813953488372093,
+      "expected": 1.813953488372093,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.reviewer_count_all",
+      "actual": 1.0348837209302326,
+      "expected": 1.0348837209302326,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.reviewer_count_human",
+      "actual": 0.9302325581395349,
+      "expected": 0.9302325581395349,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.review_hhi_all",
+      "actual": 0.7884087824574901,
+      "expected": 0.7884087824574901,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.review_hhi_human",
+      "actual": 0.8224282988910718,
+      "expected": 0.8224282988910718,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.k50_all",
+      "actual": 1.0681818181818181,
+      "expected": 1.0681818181818181,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.k50_human",
+      "actual": 1.0681818181818181,
+      "expected": 1.0681818181818181,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.n_repos_active_accounts",
+      "actual": 86.0,
+      "expected": 86.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.n_repos_reviewer_count",
+      "actual": 86.0,
+      "expected": 86.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.n_repos_review_hhi",
+      "actual": 44.0,
+      "expected": 44.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.n_repos_k50",
+      "actual": 44.0,
+      "expected": 44.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.response_median_hours_all",
+      "actual": 0.43166666666666664,
+      "expected": 0.43166666666666664,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.response_median_hours_human",
+      "actual": 1.2105555555555556,
+      "expected": 1.2105555555555556,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.n_response_prs_all",
+      "actual": 173.0,
+      "expected": 173.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-02.n_response_prs_human",
+      "actual": 149.0,
+      "expected": 149.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-03",
+      "expected": "2025-03",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.active_accounts_all",
+      "actual": 2.592814371257485,
+      "expected": 2.592814371257485,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.active_accounts_human",
+      "actual": 1.7544910179640718,
+      "expected": 1.7544910179640718,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.reviewer_count_all",
+      "actual": 0.844311377245509,
+      "expected": 0.844311377245509,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.reviewer_count_human",
+      "actual": 0.7425149700598802,
+      "expected": 0.7425149700598802,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.review_hhi_all",
+      "actual": 0.720305093857449,
+      "expected": 0.720305093857449,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.review_hhi_human",
+      "actual": 0.7503218113974209,
+      "expected": 0.7503218113974209,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.k50_all",
+      "actual": 1.1851851851851851,
+      "expected": 1.1851851851851851,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.k50_human",
+      "actual": 1.1666666666666667,
+      "expected": 1.1666666666666667,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.n_repos_active_accounts",
+      "actual": 167.0,
+      "expected": 167.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.n_repos_reviewer_count",
+      "actual": 167.0,
+      "expected": 167.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.n_repos_review_hhi",
+      "actual": 54.0,
+      "expected": 54.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.n_repos_k50",
+      "actual": 54.0,
+      "expected": 54.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.response_median_hours_all",
+      "actual": 0.3952777777777778,
+      "expected": 0.3952777777777778,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.response_median_hours_human",
+      "actual": 0.6144444444444445,
+      "expected": 0.6144444444444445,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.n_response_prs_all",
+      "actual": 275.0,
+      "expected": 275.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-03.n_response_prs_human",
+      "actual": 237.0,
+      "expected": 237.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-04",
+      "expected": "2025-04",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.active_accounts_all",
+      "actual": 2.6121212121212123,
+      "expected": 2.6121212121212123,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.active_accounts_human",
+      "actual": 1.587878787878788,
+      "expected": 1.587878787878788,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.reviewer_count_all",
+      "actual": 0.8424242424242424,
+      "expected": 0.8424242424242424,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.reviewer_count_human",
+      "actual": 0.6909090909090909,
+      "expected": 0.6909090909090909,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.review_hhi_all",
+      "actual": 0.6843090826726851,
+      "expected": 0.6843090826726851,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.review_hhi_human",
+      "actual": 0.7687496748942719,
+      "expected": 0.7687496748942719,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.k50_all",
+      "actual": 1.183673469387755,
+      "expected": 1.183673469387755,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.k50_human",
+      "actual": 1.1428571428571428,
+      "expected": 1.1428571428571428,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.n_repos_active_accounts",
+      "actual": 165.0,
+      "expected": 165.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.n_repos_reviewer_count",
+      "actual": 165.0,
+      "expected": 165.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.n_repos_review_hhi",
+      "actual": 49.0,
+      "expected": 49.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.n_repos_k50",
+      "actual": 49.0,
+      "expected": 49.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.response_median_hours_all",
+      "actual": 0.5572222222222222,
+      "expected": 0.5572222222222222,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.response_median_hours_human",
+      "actual": 0.7875,
+      "expected": 0.7875,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.n_response_prs_all",
+      "actual": 326.0,
+      "expected": 326.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-04.n_response_prs_human",
+      "actual": 304.0,
+      "expected": 304.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-05",
+      "expected": "2025-05",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.active_accounts_all",
+      "actual": 3.0172043010752687,
+      "expected": 3.0172043010752687,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.active_accounts_human",
+      "actual": 1.8086021505376344,
+      "expected": 1.8086021505376344,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.reviewer_count_all",
+      "actual": 1.303225806451613,
+      "expected": 1.303225806451613,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.reviewer_count_human",
+      "actual": 0.7838709677419354,
+      "expected": 0.7838709677419354,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.review_hhi_all",
+      "actual": 0.5653948932946937,
+      "expected": 0.5653948932946937,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.review_hhi_human",
+      "actual": 0.7607660280295956,
+      "expected": 0.7607660280295956,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.k50_all",
+      "actual": 1.4397590361445782,
+      "expected": 1.4397590361445782,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.k50_human",
+      "actual": 1.1295180722891567,
+      "expected": 1.1295180722891567,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.n_repos_active_accounts",
+      "actual": 930.0,
+      "expected": 930.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.n_repos_reviewer_count",
+      "actual": 930.0,
+      "expected": 930.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.n_repos_review_hhi",
+      "actual": 332.0,
+      "expected": 332.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.n_repos_k50",
+      "actual": 332.0,
+      "expected": 332.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.response_median_hours_all",
+      "actual": 0.4063888888888889,
+      "expected": 0.4063888888888889,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.response_median_hours_human",
+      "actual": 1.8219444444444444,
+      "expected": 1.8219444444444444,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.n_response_prs_all",
+      "actual": 1726.0,
+      "expected": 1726.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-05.n_response_prs_human",
+      "actual": 1134.0,
+      "expected": 1134.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-06",
+      "expected": "2025-06",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.active_accounts_all",
+      "actual": 2.6914257228315055,
+      "expected": 2.6914257228315055,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.active_accounts_human",
+      "actual": 1.7333000997008974,
+      "expected": 1.7333000997008974,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.reviewer_count_all",
+      "actual": 1.113160518444666,
+      "expected": 1.113160518444666,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.reviewer_count_human",
+      "actual": 0.6640079760717846,
+      "expected": 0.6640079760717846,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.review_hhi_all",
+      "actual": 0.583239645889219,
+      "expected": 0.583239645889219,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.review_hhi_human",
+      "actual": 0.7602206736033212,
+      "expected": 0.7602206736033212,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.k50_all",
+      "actual": 1.4127272727272728,
+      "expected": 1.4127272727272728,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.k50_human",
+      "actual": 1.1381818181818182,
+      "expected": 1.1381818181818182,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.n_repos_active_accounts",
+      "actual": 2006.0,
+      "expected": 2006.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.n_repos_reviewer_count",
+      "actual": 2006.0,
+      "expected": 2006.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.n_repos_review_hhi",
+      "actual": 550.0,
+      "expected": 550.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.n_repos_k50",
+      "actual": 550.0,
+      "expected": 550.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.response_median_hours_all",
+      "actual": 0.4191666666666667,
+      "expected": 0.4191666666666667,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.response_median_hours_human",
+      "actual": 1.4305555555555556,
+      "expected": 1.4305555555555556,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.n_response_prs_all",
+      "actual": 3092.0,
+      "expected": 3092.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-06.n_response_prs_human",
+      "actual": 2274.0,
+      "expected": 2274.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-07",
+      "expected": "2025-07",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.active_accounts_all",
+      "actual": 2.821320182094082,
+      "expected": 2.821320182094082,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.active_accounts_human",
+      "actual": 1.7052352048558421,
+      "expected": 1.7052352048558421,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.reviewer_count_all",
+      "actual": 1.1984066767830046,
+      "expected": 1.1984066767830046,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.reviewer_count_human",
+      "actual": 0.7249620637329287,
+      "expected": 0.7249620637329287,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.review_hhi_all",
+      "actual": 0.5617456961010678,
+      "expected": 0.5617456961010678,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.review_hhi_human",
+      "actual": 0.7786534178226577,
+      "expected": 0.7786534178226577,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.k50_all",
+      "actual": 1.3871733966745843,
+      "expected": 1.3871733966745843,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.k50_human",
+      "actual": 1.1294536817102139,
+      "expected": 1.1294536817102139,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.n_repos_active_accounts",
+      "actual": 2636.0,
+      "expected": 2636.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.n_repos_reviewer_count",
+      "actual": 2636.0,
+      "expected": 2636.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.n_repos_review_hhi",
+      "actual": 842.0,
+      "expected": 842.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.n_repos_k50",
+      "actual": 842.0,
+      "expected": 842.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.response_median_hours_all",
+      "actual": 0.7469444444444444,
+      "expected": 0.7469444444444444,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.response_median_hours_human",
+      "actual": 2.176388888888889,
+      "expected": 2.176388888888889,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.n_response_prs_all",
+      "actual": 3640.0,
+      "expected": 3640.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-07.n_response_prs_human",
+      "actual": 2820.0,
+      "expected": 2820.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-08",
+      "expected": "2025-08",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.active_accounts_all",
+      "actual": 2.953598484848485,
+      "expected": 2.953598484848485,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.active_accounts_human",
+      "actual": 1.6534090909090908,
+      "expected": 1.6534090909090908,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.reviewer_count_all",
+      "actual": 1.1919191919191918,
+      "expected": 1.1919191919191918,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.reviewer_count_human",
+      "actual": 0.7017045454545454,
+      "expected": 0.7017045454545454,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.review_hhi_all",
+      "actual": 0.5883849188724121,
+      "expected": 0.5883849188724121,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.review_hhi_human",
+      "actual": 0.8065472442041132,
+      "expected": 0.8065472442041132,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.k50_all",
+      "actual": 1.3308619091751621,
+      "expected": 1.3308619091751621,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.k50_human",
+      "actual": 1.0963855421686748,
+      "expected": 1.0963855421686748,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.n_repos_active_accounts",
+      "actual": 3168.0,
+      "expected": 3168.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.n_repos_reviewer_count",
+      "actual": 3168.0,
+      "expected": 3168.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.n_repos_review_hhi",
+      "actual": 1079.0,
+      "expected": 1079.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.n_repos_k50",
+      "actual": 1079.0,
+      "expected": 1079.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.response_median_hours_all",
+      "actual": 0.9091666666666667,
+      "expected": 0.9091666666666667,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.response_median_hours_human",
+      "actual": 1.7261111111111112,
+      "expected": 1.7261111111111112,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.n_response_prs_all",
+      "actual": 4351.0,
+      "expected": 4351.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-08.n_response_prs_human",
+      "actual": 3502.0,
+      "expected": 3502.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-09",
+      "expected": "2025-09",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.active_accounts_all",
+      "actual": 2.9858088930936613,
+      "expected": 2.9858088930936613,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.active_accounts_human",
+      "actual": 1.6622516556291391,
+      "expected": 1.6622516556291391,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.reviewer_count_all",
+      "actual": 1.2308420056764429,
+      "expected": 1.2308420056764429,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.reviewer_count_human",
+      "actual": 0.717439293598234,
+      "expected": 0.717439293598234,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.review_hhi_all",
+      "actual": 0.6000905108033866,
+      "expected": 0.6000905108033866,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.review_hhi_human",
+      "actual": 0.8049736657410851,
+      "expected": 0.8049736657410851,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.k50_all",
+      "actual": 1.333617747440273,
+      "expected": 1.333617747440273,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.k50_human",
+      "actual": 1.1177474402730376,
+      "expected": 1.1177474402730376,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.n_repos_active_accounts",
+      "actual": 3171.0,
+      "expected": 3171.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.n_repos_reviewer_count",
+      "actual": 3171.0,
+      "expected": 3171.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.n_repos_review_hhi",
+      "actual": 1172.0,
+      "expected": 1172.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.n_repos_k50",
+      "actual": 1172.0,
+      "expected": 1172.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.response_median_hours_all",
+      "actual": 0.7736111111111111,
+      "expected": 0.7736111111111111,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.response_median_hours_human",
+      "actual": 1.6422222222222222,
+      "expected": 1.6422222222222222,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.n_response_prs_all",
+      "actual": 4460.0,
+      "expected": 4460.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-09.n_response_prs_human",
+      "actual": 3570.0,
+      "expected": 3570.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-10",
+      "expected": "2025-10",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.active_accounts_all",
+      "actual": 2.9501611703446566,
+      "expected": 2.9501611703446566,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.active_accounts_human",
+      "actual": 1.670468633771386,
+      "expected": 1.670468633771386,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.reviewer_count_all",
+      "actual": 1.2033225886436896,
+      "expected": 1.2033225886436896,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.reviewer_count_human",
+      "actual": 0.7113811058765187,
+      "expected": 0.7113811058765187,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.review_hhi_all",
+      "actual": 0.60663438948905,
+      "expected": 0.60663438948905,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.review_hhi_human",
+      "actual": 0.8021319340996487,
+      "expected": 0.8021319340996487,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.k50_all",
+      "actual": 1.3199723565998618,
+      "expected": 1.3199723565998618,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.k50_human",
+      "actual": 1.0995162404975811,
+      "expected": 1.0995162404975811,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.n_repos_active_accounts",
+      "actual": 4033.0,
+      "expected": 4033.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.n_repos_reviewer_count",
+      "actual": 4033.0,
+      "expected": 4033.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.n_repos_review_hhi",
+      "actual": 1447.0,
+      "expected": 1447.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.n_repos_k50",
+      "actual": 1447.0,
+      "expected": 1447.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.response_median_hours_all",
+      "actual": 0.66,
+      "expected": 0.66,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.response_median_hours_human",
+      "actual": 1.4222222222222223,
+      "expected": 1.4222222222222223,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.n_response_prs_all",
+      "actual": 7128.0,
+      "expected": 7128.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-10.n_response_prs_human",
+      "actual": 5376.0,
+      "expected": 5376.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-11",
+      "expected": "2025-11",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.active_accounts_all",
+      "actual": 2.985831809872029,
+      "expected": 2.985831809872029,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.active_accounts_human",
+      "actual": 1.6259140767824498,
+      "expected": 1.6259140767824498,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.reviewer_count_all",
+      "actual": 1.1640767824497258,
+      "expected": 1.1640767824497258,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.reviewer_count_human",
+      "actual": 0.6869287020109689,
+      "expected": 0.6869287020109689,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.review_hhi_all",
+      "actual": 0.631505366444067,
+      "expected": 0.631505366444067,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.review_hhi_human",
+      "actual": 0.8175303178771214,
+      "expected": 0.8175303178771214,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.k50_all",
+      "actual": 1.2789948453608246,
+      "expected": 1.2789948453608246,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.k50_human",
+      "actual": 1.086340206185567,
+      "expected": 1.086340206185567,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.n_repos_active_accounts",
+      "actual": 4376.0,
+      "expected": 4376.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.n_repos_reviewer_count",
+      "actual": 4376.0,
+      "expected": 4376.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.n_repos_review_hhi",
+      "actual": 1552.0,
+      "expected": 1552.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.n_repos_k50",
+      "actual": 1552.0,
+      "expected": 1552.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.response_median_hours_all",
+      "actual": 0.7652777777777777,
+      "expected": 0.7652777777777777,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.response_median_hours_human",
+      "actual": 1.3386111111111112,
+      "expected": 1.3386111111111112,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.n_response_prs_all",
+      "actual": 7524.0,
+      "expected": 7524.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-11.n_response_prs_human",
+      "actual": 5796.0,
+      "expected": 5796.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2025-12",
+      "expected": "2025-12",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.active_accounts_all",
+      "actual": 2.817014446227929,
+      "expected": 2.817014446227929,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.active_accounts_human",
+      "actual": 1.6380417335473516,
+      "expected": 1.6380417335473516,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.reviewer_count_all",
+      "actual": 1.05276886035313,
+      "expected": 1.05276886035313,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.reviewer_count_human",
+      "actual": 0.5965088282504013,
+      "expected": 0.5965088282504013,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.review_hhi_all",
+      "actual": 0.609362667305132,
+      "expected": 0.609362667305132,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.review_hhi_human",
+      "actual": 0.823262046094831,
+      "expected": 0.823262046094831,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.k50_all",
+      "actual": 1.2933507170795306,
+      "expected": 1.2933507170795306,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.k50_human",
+      "actual": 1.0919165580182528,
+      "expected": 1.0919165580182528,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.n_repos_active_accounts",
+      "actual": 4984.0,
+      "expected": 4984.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.n_repos_reviewer_count",
+      "actual": 4984.0,
+      "expected": 4984.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.n_repos_review_hhi",
+      "actual": 1534.0,
+      "expected": 1534.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.n_repos_k50",
+      "actual": 1534.0,
+      "expected": 1534.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.response_median_hours_all",
+      "actual": 0.6941666666666667,
+      "expected": 0.6941666666666667,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.response_median_hours_human",
+      "actual": 1.1094444444444445,
+      "expected": 1.1094444444444445,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.n_response_prs_all",
+      "actual": 7944.0,
+      "expected": 7944.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2025-12.n_response_prs_human",
+      "actual": 6253.0,
+      "expected": 6253.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2026-01",
+      "expected": "2026-01",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.active_accounts_all",
+      "actual": 2.8721439749608764,
+      "expected": 2.8721439749608764,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.active_accounts_human",
+      "actual": 1.8136150234741784,
+      "expected": 1.8136150234741784,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.reviewer_count_all",
+      "actual": 0.9755868544600939,
+      "expected": 0.9755868544600939,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.reviewer_count_human",
+      "actual": 0.5608763693270735,
+      "expected": 0.5608763693270735,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.review_hhi_all",
+      "actual": 0.590094054695051,
+      "expected": 0.590094054695051,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.review_hhi_human",
+      "actual": 0.8010212237433364,
+      "expected": 0.8010212237433364,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.k50_all",
+      "actual": 1.3235800344234079,
+      "expected": 1.3235800344234079,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.k50_human",
+      "actual": 1.1095811818703385,
+      "expected": 1.1095811818703385,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.n_repos_active_accounts",
+      "actual": 6390.0,
+      "expected": 6390.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.n_repos_reviewer_count",
+      "actual": 6390.0,
+      "expected": 6390.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.n_repos_review_hhi",
+      "actual": 1743.0,
+      "expected": 1743.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.n_repos_k50",
+      "actual": 1743.0,
+      "expected": 1743.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.response_median_hours_all",
+      "actual": 0.5891666666666666,
+      "expected": 0.5891666666666666,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.response_median_hours_human",
+      "actual": 1.1125,
+      "expected": 1.1125,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.n_response_prs_all",
+      "actual": 9385.0,
+      "expected": 9385.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-01.n_response_prs_human",
+      "actual": 7201.0,
+      "expected": 7201.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2026-02",
+      "expected": "2026-02",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.active_accounts_all",
+      "actual": 3.0084906714333592,
+      "expected": 3.0084906714333592,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.active_accounts_human",
+      "actual": 2.038543179533013,
+      "expected": 2.038543179533013,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.reviewer_count_all",
+      "actual": 0.9507317618143224,
+      "expected": 0.9507317618143224,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.reviewer_count_human",
+      "actual": 0.5364763713551558,
+      "expected": 0.5364763713551558,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.review_hhi_all",
+      "actual": 0.5900271925732186,
+      "expected": 0.5900271925732186,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.review_hhi_human",
+      "actual": 0.8018894998931687,
+      "expected": 0.8018894998931687,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.k50_all",
+      "actual": 1.3312720848056536,
+      "expected": 1.3312720848056536,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.k50_human",
+      "actual": 1.1183745583038869,
+      "expected": 1.1183745583038869,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.n_repos_active_accounts",
+      "actual": 8951.0,
+      "expected": 8951.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.n_repos_reviewer_count",
+      "actual": 8951.0,
+      "expected": 8951.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.n_repos_review_hhi",
+      "actual": 2264.0,
+      "expected": 2264.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.n_repos_k50",
+      "actual": 2264.0,
+      "expected": 2264.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.response_median_hours_all",
+      "actual": 0.3888888888888889,
+      "expected": 0.3888888888888889,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.response_median_hours_human",
+      "actual": 1.2619444444444445,
+      "expected": 1.2619444444444445,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.n_response_prs_all",
+      "actual": 14294.0,
+      "expected": 14294.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-02.n_response_prs_human",
+      "actual": 9437.0,
+      "expected": 9437.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2026-03",
+      "expected": "2026-03",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.active_accounts_all",
+      "actual": 3.1479440440864774,
+      "expected": 3.1479440440864774,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.active_accounts_human",
+      "actual": 2.2942772361169985,
+      "expected": 2.2942772361169985,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.reviewer_count_all",
+      "actual": 0.9249682068673166,
+      "expected": 0.9249682068673166,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.reviewer_count_human",
+      "actual": 0.5425180161085206,
+      "expected": 0.5425180161085206,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.review_hhi_all",
+      "actual": 0.5914169044616124,
+      "expected": 0.5914169044616124,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.review_hhi_human",
+      "actual": 0.7822062441773671,
+      "expected": 0.7822062441773671,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.k50_all",
+      "actual": 1.3328661527680448,
+      "expected": 1.3328661527680448,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.k50_human",
+      "actual": 1.131394533987386,
+      "expected": 1.131394533987386,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.n_repos_active_accounts",
+      "actual": 11795.0,
+      "expected": 11795.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.n_repos_reviewer_count",
+      "actual": 11795.0,
+      "expected": 11795.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.n_repos_review_hhi",
+      "actual": 2854.0,
+      "expected": 2854.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.n_repos_k50",
+      "actual": 2854.0,
+      "expected": 2854.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.response_median_hours_all",
+      "actual": 0.2991666666666667,
+      "expected": 0.2991666666666667,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.response_median_hours_human",
+      "actual": 1.3972222222222221,
+      "expected": 1.3972222222222221,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.n_response_prs_all",
+      "actual": 18562.0,
+      "expected": 18562.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-03.n_response_prs_human",
+      "actual": 11455.0,
+      "expected": 11455.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.month.order",
+      "actual": "2026-04",
+      "expected": "2026-04",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.column_set",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.active_accounts_all",
+      "actual": 2.5949820788530467,
+      "expected": 2.5949820788530467,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.active_accounts_human",
+      "actual": 1.7741935483870968,
+      "expected": 1.7741935483870968,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.reviewer_count_all",
+      "actual": 1.271505376344086,
+      "expected": 1.271505376344086,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.reviewer_count_human",
+      "actual": 0.8413978494623656,
+      "expected": 0.8413978494623656,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.review_hhi_all",
+      "actual": 0.6807383055996814,
+      "expected": 0.6807383055996814,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.review_hhi_human",
+      "actual": 0.8010953270199952,
+      "expected": 0.8010953270199952,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.k50_all",
+      "actual": 1.2388349514563106,
+      "expected": 1.2388349514563106,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.k50_human",
+      "actual": 1.116504854368932,
+      "expected": 1.116504854368932,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.n_repos_active_accounts",
+      "actual": 1116.0,
+      "expected": 1116.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.n_repos_reviewer_count",
+      "actual": 1116.0,
+      "expected": 1116.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.n_repos_review_hhi",
+      "actual": 515.0,
+      "expected": 515.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.n_repos_k50",
+      "actual": 515.0,
+      "expected": 515.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.response_median_hours_all.missing",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.response_median_hours_human.missing",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.n_response_prs_all",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "check": "RQ3.2026-04.n_response_prs_human",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "check": "G_R.event_nodes",
+      "actual": 4222224,
+      "expected": 4222224,
+      "passed": true
+    },
+    {
+      "check": "G_R.account_nodes",
+      "actual": 45598,
+      "expected": 45598,
+      "passed": true
+    },
+    {
+      "check": "G_R.pull_request_nodes",
+      "actual": 361296,
+      "expected": 361296,
+      "passed": true
+    },
+    {
+      "check": "G_R.participates_as_edges",
+      "actual": 4222224,
+      "expected": 4222224,
+      "passed": true
+    },
+    {
+      "check": "G_R.acts_on_edges",
+      "actual": 4222224,
+      "expected": 4222224,
+      "passed": true
+    }
+  ]
+}

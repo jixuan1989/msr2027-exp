@@ -1,0 +1,140 @@
+{
+  "scope": "Experimental figures 3--7 from public-source identifiers and saved analysis outputs; no layout or partition recomputation.",
+  "graphs": {
+    "I0R0": {
+      "numeric_fingerprint": "db993fe4ad30fe10ecbe1d49a66adb8ee87008e5d6d68fbd85ab1f69b209bd55",
+      "nodes": 294083,
+      "edges": 546167,
+      "required_vertex_attributes": [
+        "name",
+        "node_type",
+        "account_type",
+        "common_human",
+        "membership_seed42"
+      ],
+      "source_name_fingerprint": "560214a3254124c41384267f0867f016ee6cc3ee17c7d43610f3aeb538e2e37f"
+    },
+    "I1R0": {
+      "numeric_fingerprint": "135b858426b7c6293a263376abb575059849cc01bc380484021db10cd152af5f",
+      "nodes": 138506,
+      "edges": 151925,
+      "required_vertex_attributes": [
+        "name",
+        "node_type",
+        "account_type",
+        "common_human",
+        "membership_seed42"
+      ],
+      "source_name_fingerprint": "6ba3ce8333ce9f6b330ddda451673fd3b84608d7c467e5ceb19ec4eee9e7c6b8"
+    },
+    "coordinates_sha256": "33637f0b5a43acdb8de81ecca6b501dcfaf17a5fadfa9ffba389ebcd847477f9",
+    "color_arrays_sha256": {
+      "all": "b063cdbb3429a7469d8b8070f8a089ae32a88981d750e9b97e34028dc547fe0f",
+      "human": "38a0d000fdc9b8a454c9d9e7c8541117861c024b5ef8c6c2cf8bcba8aa736aee"
+    }
+  },
+  "inputs": {
+    "data/plot/rq1_local/local_shared_c40_nodes.parquet": {
+      "rows": 38,
+      "sha256": "ad06bf7d9a1ae49ff9155b86efacc6c7b1b76ae136d7e0219e3cc43f0bea6a92"
+    },
+    "data/plot/rq1_local/local_shared_c40_all_edges.parquet": {
+      "rows": 61,
+      "sha256": "574c1e8f2b262605303ea140172a360f46e1bd2bd1e90a159864f41bee8b59cb"
+    },
+    "data/plot/rq1_local/local_shared_c40_human_edges.parquet": {
+      "rows": 40,
+      "sha256": "24805b9b80e315de8020c7bc65dee6c809e02eb457cfb30772a1ae6ea00eaeb2"
+    },
+    "data/plot/rq2_curves.csv": {
+      "sha256": "37858ed9ddb8b1c99670fb150e982fd6cdc4b48f38045d17462b9e8e499fee87"
+    },
+    "data/plot/rq3_monthly.csv": {
+      "sha256": "2b20f729331b68ed018130f03209e33382615b79ada76a14fd4f162a74a607c1"
+    },
+    "data/plot/rq1_global/I0R0.pickle": {
+      "sha256": "10c27ccfc4dd3771f214b4093882b95877047af5389a2cfcb22271a271436c69",
+      "rows": 294083
+    },
+    "data/plot/rq1_global/I1R0.pickle": {
+      "sha256": "f11a1a3d4a086c8267e03c985a1e0ea8527e6b9336907e773a3fb3179cf0a720",
+      "rows": 138506
+    },
+    "data/plot/rq1_global/full_graph_fr_seed42_passes34.npz": {
+      "sha256": "3ef7defda8842a0695f84ac3967568d85d0459e0550119ec4560b94ff601a168"
+    },
+    "data/plot/rq1_local/fig_rq1_local_account_pr_c40_paper.manifest.json": {
+      "sha256": "085491768fb2b5852320654f065c734e699088815ac12738362f664bf98b0a40"
+    },
+    "data/plot/rq2_candidates/reviewer_candidate_audit.json": {
+      "sha256": "295bed062e80aa674dcedb23e6ac39e428f585c0d06e781a84aaf814b901d2c0"
+    },
+    "data/plot/rq2_candidates/reviewer_candidate_audit_example.csv": {
+      "sha256": "09882750afc6eaedc39be947c77e2303efd4b167a24ad978532722d21098dc9e"
+    }
+  },
+  "figures": {
+    "rq1_local_panel_stats": {
+      "all-known": {
+        "nodes": 38,
+        "edges": 61,
+        "shown_common_humans": 19,
+        "shown_common_human_groups": 1,
+        "edge_weight_sum": 263.0,
+        "components": 1
+      },
+      "human-only": {
+        "nodes": 35,
+        "edges": 40,
+        "shown_common_humans": 19,
+        "shown_common_human_groups": 2,
+        "edge_weight_sum": 167.0,
+        "components": 2
+      }
+    },
+    "rq2_candidate_display_fingerprint": "d3dcb81257029d180e61a3dd7de04bfb96b9648120f6bb25ec2c190450e8dc91",
+    "fig_rq1_global_horizontal_focus_v3": {
+      "reference_rgba_shape": [
+        1476,
+        3078,
+        4
+      ],
+      "reference_pixel_sha256": "5101dc353ca0977c95ac622489b940d01440fbd1762a3e4a7dbce2bc17720a7e"
+    },
+    "fig_rq1_local_horizontal_v2": {
+      "reference_rgba_shape": [
+        1575,
+        3078,
+        4
+      ],
+      "reference_pixel_sha256": "5a996051a44f74d826499500e531ff473cddbc24b48407b60f5c12374829035c"
+    },
+    "fig_reviewer_candidate_lists_v2": {
+      "reference_rgba_shape": [
+        1525,
+        2052,
+        4
+      ],
+      "reference_pixel_sha256": "30dd954bdd7e411ffee8f70e799bb2fb3fd64fa99ba91fe8c97c75e49ded4607"
+    },
+    "fig_reviewer_identity_k_compact_v2": {
+      "reference_rgba_shape": [
+        900,
+        2052,
+        4
+      ],
+      "reference_pixel_sha256": "74ebc3b30f51de54fadb1990126cebf009301f052285b47ebe399b62f0e02458"
+    },
+    "fig_rq3_monthly_metrics_v3": {
+      "reference_rgba_shape": [
+        2250,
+        2052,
+        4
+      ],
+      "reference_pixel_sha256": "9d6c5c507f12d42c4459ee0a0a4efbc0bd87434674739cd94a620b49c8ef90af"
+    },
+    "rq2_candidate_source_fingerprint": "520c2aa68fa5b850b6e23bc44755be4cccf1f6760780bfbc14fae568b0cc815e"
+  },
+  "original_case_public_usernames": true,
+  "original_public_source_identifiers": true
+}

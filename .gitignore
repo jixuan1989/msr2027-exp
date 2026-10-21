@@ -1,0 +1,14 @@
+# Generated work, environments, caches, and local-only material.
+outputs/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+private/
+*private*map*.json
+alias_maps.json
+*.log
+*.tmp

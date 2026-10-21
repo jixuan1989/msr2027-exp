@@ -1,0 +1,30 @@
+{
+  "active_accounts": {
+    "repo_pairs": 25402,
+    "month_pairs": 54065,
+    "all_known_repo_mean": 2.180274648889759,
+    "human_only_repo_mean": 1.4022276123293815,
+    "paired_delta_all_minus_human": 0.7780470365603773
+  },
+  "reviewer_count": {
+    "repo_pairs": 25402,
+    "month_pairs": 54065,
+    "all_known_repo_mean": 0.6051421640474958,
+    "human_only_repo_mean": 0.3331478922084629,
+    "paired_delta_all_minus_human": 0.27199427183903274
+  },
+  "review_hhi": {
+    "repo_pairs": 7846,
+    "month_pairs": 16083,
+    "all_known_repo_mean": 0.67302705519254,
+    "human_only_repo_mean": 0.8631452959052891,
+    "paired_delta_all_minus_human": -0.19011824071274908
+  },
+  "bus_factor50": {
+    "repo_pairs": 7846,
+    "month_pairs": 16083,
+    "all_known_repo_mean": 1.210067980282102,
+    "human_only_repo_mean": 1.0534363135943559,
+    "paired_delta_all_minus_human": 0.15663166668774622
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "published_file": "scripts/community_core.py",
+    "source_basename": "paper1_identity_role_factor.py",
+    "source_sha256": "a2c0552a1734a3aa0a3a5cafcd1fae16faa5173a1c486ee9dc81868cd47c1ae5",
+    "retained_definitions": [
+      "norm",
+      "batches",
+      "load_edges",
+      "make_edges",
+      "make_graph",
+      "leiden",
+      "account_partition",
+      "summarize",
+      "pair_metrics",
+      "active_accounts"
+    ],
+    "adaptation": "Extracted verbatim definitions; supplied only required imports. No scoring or graph rules changed."
+  },
+  {
+    "published_file": "scripts/reviewer_core.py",
+    "source_basename": "paper1_reviewer_temporal.py",
+    "source_sha256": "2b034a51705ff3de964128583a9d701e7875753d9401a48da32c37b3346ce6cc",
+    "retained_definitions": [
+      "norm",
+      "parse_time",
+      "iso",
+      "batches",
+      "PR",
+      "Pair",
+      "load_labels",
+      "resolve_type",
+      "load_events",
+      "_before",
+      "build_histories",
+      "rank",
+      "targets_for_pr",
+      "_one_metric"
+    ],
+    "adaptation": "Extracted verbatim definitions; supplied only required imports. No scoring or graph rules changed."
+  },
+  {
+    "published_file": "scripts/build_role_aware_network.py",
+    "source_basename": "build_role_aware_network.py",
+    "source_sha256": "82a51c60e847eb35ec3108da06058fa58e82abd3aa6b9dadc12af26879ad3bee",
+    "adaptation": "Verbatim study implementation; all input/output paths are explicit CLI arguments."
+  },
+  {
+    "published_file": "scripts/paper1_governance_metrics.py",
+    "source_basename": "paper1_governance_metrics.py",
+    "source_sha256": "d55ef6e5cd76343730bc562840c1408320134325e52f23e68c19d2202f4c6b06",
+    "adaptation": "Verbatim study implementation; all input/output paths are explicit CLI arguments."
+  },
+  {
+    "published_file": "scripts/upstream/download_aidev.py",
+    "source_basename": "download_aidev.py",
+    "source_sha256": "5a60edeeefc14ccd5fe2223d34d446ca026d8545219a8074011199d7a782b4d2",
+    "adaptation": "Verbatim optional upstream preparation code. Not required for the bundled-input reproduction; no external credentials or configuration bundled."
+  },
+  {
+    "published_file": "scripts/upstream/build_aidev_labels.py",
+    "source_basename": "build_aidev_labels.py",
+    "source_sha256": "72891a5aad5ca6f42d74852e4d1db8f9dcb90acdbde36f965b375e5ee3db2beb",
+    "adaptation": "Verbatim optional upstream preparation code. Not required for the bundled-input reproduction; no external credentials or configuration bundled."
+  },
+  {
+    "published_file": "scripts/upstream/build_aidev_network.py",
+    "source_basename": "build_aidev_network.py",
+    "source_sha256": "3216652036fb6fb80a9507b22d32c0c4240836b71e920b80d1a735b8bb2005c5",
+    "adaptation": "Verbatim optional upstream preparation code. Not required for the bundled-input reproduction; no external credentials or configuration bundled."
+  },
+  {
+    "published_file": "scripts/upstream/paper1_filter_unknown.py",
+    "source_basename": "paper1_filter_unknown.py",
+    "source_sha256": "ca0c66a46eae4acef469bc7d31d0a2e42d25c225f8b5088265f9c26e522ec711",
+    "adaptation": "Verbatim optional upstream preparation code. Not required for the bundled-input reproduction; no external credentials or configuration bundled."
+  },
+  {
+    "published_file": "scripts/upstream/count_known_raw_records.py",
+    "source_basename": "count_known_raw_records.py",
+    "source_sha256": "4efca480d36c86590687318aa1283bdd44b82e758405ce439dfdac6d6cf212cf",
+    "adaptation": "Optional source-inventory audit; raw inputs must be obtained separately."
+  },
+  {
+    "published_file": "scripts/upstream/audit_data_scale_inventory.py",
+    "source_basename": "audit_data_scale_inventory.py",
+    "source_sha256": "c06de69edbbcb2d3dab7d558097986e1d786410c09104fe1f1339e82cd7f01cc",
+    "adaptation": "Optional source-inventory audit; raw inputs must be obtained separately."
+  }
+]

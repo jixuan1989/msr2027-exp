@@ -1,0 +1,161 @@
+{
+  "entry_point": "python scripts/render_figures.py",
+  "output_directory": "outputs/figures",
+  "figures": {
+    "3": {
+      "content_checks_passed": true,
+      "rgba_shape": [
+        1476,
+        3078,
+        4
+      ],
+      "reference_rgba_shape_match": true,
+      "reference_pixel_match": true,
+      "pixel_sha256": "5101dc353ca0977c95ac622489b940d01440fbd1762a3e4a7dbce2bc17720a7e",
+      "outputs": {
+        "pdf": {
+          "path": "figures/fig_rq1_global_horizontal_focus_v3.pdf",
+          "bytes": 2082620,
+          "sha256": "7d438f4df292c6cc1c201bb7d68a0f95abb9471cb740346b0ea5849c330c1c6e"
+        },
+        "png": {
+          "path": "figures/fig_rq1_global_horizontal_focus_v3.png",
+          "bytes": 2315951,
+          "sha256": "ae2ad87b2c0887081ddc35c4b4e870508de09cd0b23563550bc30b38e700c15f"
+        },
+        "svg": {
+          "path": "figures/fig_rq1_global_horizontal_focus_v3.svg",
+          "bytes": 3426197,
+          "sha256": "69ce4ea2cdc94b303319b00069afad3a032fec4eedfe5f745e71d2f9c771141e"
+        }
+      }
+    },
+    "4": {
+      "content_checks_passed": true,
+      "rgba_shape": [
+        1575,
+        3078,
+        4
+      ],
+      "reference_rgba_shape_match": true,
+      "reference_pixel_match": true,
+      "pixel_sha256": "5a996051a44f74d826499500e531ff473cddbc24b48407b60f5c12374829035c",
+      "outputs": {
+        "pdf": {
+          "path": "figures/fig_rq1_local_horizontal_v2.pdf",
+          "bytes": 19378,
+          "sha256": "8faa3eb98ab70c9011ce3b2721d37e06e564f06b0e0f52e414fb299c5d9bfa40"
+        },
+        "png": {
+          "path": "figures/fig_rq1_local_horizontal_v2.png",
+          "bytes": 367501,
+          "sha256": "c6bbf678a4f5b0abdcfe14385cd9adb3cd525e9a57f0c8657bfe8643e274c31c"
+        },
+        "svg": {
+          "path": "figures/fig_rq1_local_horizontal_v2.svg",
+          "bytes": 45044,
+          "sha256": "fddcd3264947dbef8cca79c8f7ea440cb664e2dca7d029a6bf923dd1fc2d5a57"
+        }
+      }
+    },
+    "5": {
+      "content_checks_passed": true,
+      "rgba_shape": [
+        1525,
+        2052,
+        4
+      ],
+      "reference_rgba_shape_match": true,
+      "reference_pixel_match": true,
+      "pixel_sha256": "30dd954bdd7e411ffee8f70e799bb2fb3fd64fa99ba91fe8c97c75e49ded4607",
+      "outputs": {
+        "pdf": {
+          "path": "figures/fig_reviewer_candidate_lists_v2.pdf",
+          "bytes": 27007,
+          "sha256": "80fc461ecdc30d0a16b9f2bb90423789ea2a6e8176b102678f1c89e9789b3f19"
+        },
+        "png": {
+          "path": "figures/fig_reviewer_candidate_lists_v2.png",
+          "bytes": 225653,
+          "sha256": "4798558651221599d16881e18ade965aa79d7f2b463a0fece5c62b4e4bb56372"
+        },
+        "svg": {
+          "path": "figures/fig_reviewer_candidate_lists_v2.svg",
+          "bytes": 17229,
+          "sha256": "8f290691422a16b0c0214296965dfe72d626a107dbc78bb8704479889cce667e"
+        }
+      }
+    },
+    "6": {
+      "content_checks_passed": true,
+      "rgba_shape": [
+        900,
+        2052,
+        4
+      ],
+      "reference_rgba_shape_match": true,
+      "reference_pixel_match": true,
+      "pixel_sha256": "74ebc3b30f51de54fadb1990126cebf009301f052285b47ebe399b62f0e02458",
+      "outputs": {
+        "pdf": {
+          "path": "figures/fig_reviewer_identity_k_compact_v2.pdf",
+          "bytes": 13742,
+          "sha256": "1adebbb06346cbed1dc1e3bd9d2990b5990d7976f584cef268d3cb379df4e2b6"
+        },
+        "png": {
+          "path": "figures/fig_reviewer_identity_k_compact_v2.png",
+          "bytes": 127253,
+          "sha256": "633734fa8774055dd4ade4f2f7642ff5ff4f5c91a6ac77978e59aeee7d31d32c"
+        },
+        "svg": {
+          "path": "figures/fig_reviewer_identity_k_compact_v2.svg",
+          "bytes": 17676,
+          "sha256": "46f9b2d893e099c55653f0a0b65736f17f50fe9366c054d7c321169282147b61"
+        }
+      }
+    },
+    "7": {
+      "content_checks_passed": true,
+      "rgba_shape": [
+        2250,
+        2052,
+        4
+      ],
+      "reference_rgba_shape_match": true,
+      "reference_pixel_match": true,
+      "pixel_sha256": "9d6c5c507f12d42c4459ee0a0a4efbc0bd87434674739cd94a620b49c8ef90af",
+      "outputs": {
+        "pdf": {
+          "path": "figures/fig_rq3_monthly_metrics_v3.pdf",
+          "bytes": 28638,
+          "sha256": "164889e896608c2ee2b0fb407cdf2f861cb0d988770915df6b21fcf2a6a2557e"
+        },
+        "png": {
+          "path": "figures/fig_rq3_monthly_metrics_v3.png",
+          "bytes": 325108,
+          "sha256": "7b083839e70d165eca862274e6ef98e945066d93a5122c9f19aff0d7addf0252"
+        },
+        "svg": {
+          "path": "figures/fig_rq3_monthly_metrics_v3.svg",
+          "bytes": 97399,
+          "sha256": "8cb923f18fa74fb3f1c3bf3c027070db435b6c22ec5f64907747b6c414337234"
+        }
+      }
+    }
+  },
+  "input_checks": {
+    "packaged_table_hashes": true,
+    "rq1_graph_edges_weights_order_memberships_coordinates_colors": true,
+    "rq2_public_case_rank_login_type_score_target_fields": true
+  },
+  "layout_or_experiment_recomputed": false,
+  "runtime": {
+    "igraph": "1.0.0",
+    "matplotlib": "3.11.2",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "networkx": "3.6.1",
+    "pyarrow": "25.0.1",
+    "pillow": "12.3.0"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "msr2027-field-minimized-public-input-v2",
+  "source_fingerprints": {
+    "events": {
+      "bytes": 70211919,
+      "sha256": "29f144ee4c25d0b84f4dd5c8e215dec6c3730189bd5292ca92f2b7d1b339dd6f",
+      "rows": 4222224
+    },
+    "labels": {
+      "bytes": 15452210,
+      "sha256": "9e031b954e2f0fb1ec10a1c42d606f18376d6e31cabb010e2a4280b2cb2f76b0",
+      "rows": 425548
+    }
+  },
+  "outputs": {
+    "actor_pr_events.parquet": {
+      "bytes": 47324368,
+      "sha256": "c1b246f56be37152c69f69c0fbbf20bf68fb10878ca82ae8e417908a70eec676",
+      "rows": 4222224
+    },
+    "actor_labels.parquet": {
+      "bytes": 6415642,
+      "sha256": "88cb86e586f6d90b2ef693fee8cafd6e23d472bb7b4670a4889c7563b88fe9be",
+      "rows": 425548
+    }
+  },
+  "event_columns": [
+    "pr_id",
+    "repo_id",
+    "repo_url",
+    "agent",
+    "source_node",
+    "target_node",
+    "source_type",
+    "target_type",
+    "relation",
+    "event",
+    "event_time",
+    "direct_user_type",
+    "evidence_source"
+  ],
+  "label_columns": [
+    "actor_key",
+    "login",
+    "actor_type",
+    "actor_subtype"
+  ],
+  "account_label_rows": 425548,
+  "event_rows": 4222224,
+  "repositories": 25402,
+  "prs": 361296,
+  "participating_account_identifiers": 45592,
+  "all_known_label_type_counts": {
+    "llm_agent_account": 419,
+    "human_user": 423656,
+    "service_account": 33,
+    "automation_bot": 1440
+  },
+  "event_source_type_counts": {
+    "human_user": 1771469,
+    "llm_agent_label": 361296,
+    "automation_bot": 116667,
+    "service_account": 169744,
+    "llm_agent_account": 1803048
+  },
+  "public_tool_source_identifiers": [
+    "agent:Claude_Code",
+    "agent:Copilot",
+    "agent:Cursor",
+    "agent:Devin",
+    "agent:Google_Jules",
+    "agent:OpenAI_Codex"
+  ],
+  "evidence_source_enum": {
+    "pull_request.user": 361296,
+    "AIDev.agent": 361296,
+    "pr_comments.parquet": 373549,
+    "pr_reviews.parquet": 281152,
+    "pr_review_comments.parquet": 289769,
+    "pr_commits.parquet": 719920,
+    "pr_timeline.actor": 1633775,
+    "pr_timeline.assignee": 201467
+  },
+  "export_policy": {
+    "transformation": "Column selection and Parquet recompression only; no value changes.",
+    "public_identifiers": "Original account keys, login names, PR/repository IDs, source/target node IDs, and repository URLs are retained.",
+    "row_order": "All event and label rows remain in original order, without filtering, deduplication, aggregation, or sorting.",
+    "timestamps_and_enums": "Original timestamps, account types, subtypes, relations, operations, user types, and source enums are unchanged.",
+    "omitted_label_columns": "Original label evidence, source/count fields, and other columns outside LABEL_COLUMNS are omitted.",
+    "aliasing": "None; no aliases or reversible mapping are generated."
+  },
+  "checks": {
+    "all_retained_event_values_and_row_order_exact": true,
+    "all_retained_label_values_and_row_order_exact": true,
+    "event_rows_preserved": true,
+    "label_rows_preserved": true,
+    "public_identifiers_logins_and_repo_urls_preserved": true,
+    "no_alias_or_mapping_created": true
+  },
+  "source_note": "The canonical inputs derive from the public AIDev dataset. This export retains the public identifiers and URLs needed to inspect the original records."
+}

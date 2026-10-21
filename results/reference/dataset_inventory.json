@@ -1,0 +1,32 @@
+{
+  "source_objects": {
+    "account_identifiers": 45592,
+    "human": 44871,
+    "bot_merged": 607,
+    "ai_agent_accounts": 114,
+    "repositories": 25402,
+    "prs": 361296,
+    "distinct_repository_commit_sha_pairs": 685948
+  },
+  "normalized_records": 4222224,
+  "record_sources": {
+    "pull_request.user": 361296,
+    "AIDev.agent": 361296,
+    "pr_comments.parquet": 373549,
+    "pr_reviews.parquet": 281152,
+    "pr_review_comments.parquet": 289769,
+    "pr_commits.parquet": 719920,
+    "pr_timeline.actor": 1633775,
+    "pr_timeline.assignee": 201467
+  },
+  "graph_node_counts": {
+    "event": 4222224,
+    "account": 45598,
+    "pull_request": 361296
+  },
+  "graph_edge_counts": {
+    "participates_as": 4222224,
+    "acts_on": 4222224
+  },
+  "source_object_count_boundary": "Commit SHA and source object IDs are not retained in the minimized event file; the distinct-object inventory is archived evidence from the optional raw-source audit."
+}

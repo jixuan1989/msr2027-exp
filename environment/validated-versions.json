@@ -1,0 +1,15 @@
+{
+  "python": "3.11.3",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "pyarrow": "25.0.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "scikit-learn": "1.9.1",
+    "networkx": "3.6.1",
+    "matplotlib": "3.11.2",
+    "scipy": "1.17.1",
+    "pillow": "12.3.0"
+  },
+  "purpose": "Environment used to validate full-data runs and experimental figures from selected AIDev records with original public identifiers; no host or user metadata retained."
+}

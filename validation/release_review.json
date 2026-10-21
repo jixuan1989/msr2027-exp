@@ -1,0 +1,17 @@
+{
+  "status": "ready_for_owner_review_not_uploaded",
+  "dataset_policy": "Retain original public AIDev identifiers, account usernames and repository URLs; field selection and Parquet compression only.",
+  "dataset_anonymization_applied": false,
+  "original_public_identifiers_retained": true,
+  "original_selected_values_and_row_order_match_sources": true,
+  "full_data_numerical_checks": 402,
+  "all_numerical_checks_passed": true,
+  "experimental_figures_verified": 5,
+  "all_figure_pixels_match_reference": true,
+  "included_main_events": 4222224,
+  "local_credentials_config_and_history_bundled": false,
+  "publication_hygiene_findings": 0,
+  "git_history_bundled": false,
+  "raw_profiles_or_comment_bodies_bundled": false,
+  "license_status": "AIDev attribution retained under CC BY 4.0; no additional software license selected by the owner."
+}

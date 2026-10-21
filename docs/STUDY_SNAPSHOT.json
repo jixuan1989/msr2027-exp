@@ -1,0 +1,13 @@
+{
+  "manuscript_basename": "paper_en_2.tex",
+  "sha256": "187cf0d861afa9605d852c793ca97dab1e661dc604117ddb560e52ff720623bf",
+  "scope": "Active final RQ1-RQ3 experiments and Figures 3-7; removed exploratory experiments and historical manuscript drafts are excluded.",
+  "source_inventory": "results/reference/dataset_inventory.json",
+  "reference_results": "results/reference/",
+  "core_input_manifest": "data/processed/release_data_manifest.json",
+  "code_provenance": "docs/CODE_PROVENANCE.json",
+  "new_results_check": "validation/reproduction_checks.json",
+  "new_figure_check": "validation/figure_checks.json",
+  "validated_from_selected_aidev_records_with_original_public_identifiers": true,
+  "identifier_policy": "Original public account, PR and repository IDs, usernames and repository URLs retained; no renaming."
+}

@@ -1,0 +1,375 @@
+{
+  "common_human_count": 10808,
+  "graph_counts": {
+    "I0R0": {
+      "nodes": 294083,
+      "edges": 546167,
+      "account_nodes": 25573,
+      "pr_nodes": 268510
+    },
+    "I1R0": {
+      "nodes": 138506,
+      "edges": 151925,
+      "account_nodes": 10808,
+      "pr_nodes": 127698
+    }
+  },
+  "seed_records": [
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2410,
+      "account_communities": 2410,
+      "singleton_share": 0.3062240663900415,
+      "cell": "I0R0",
+      "seed": 42,
+      "largest_account_community": 4188,
+      "common_human_communities": 1280,
+      "largest_common_human_community": 1063,
+      "modularity": 0.6684550759555894,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2243,
+      "account_communities": 2243,
+      "singleton_share": 0.0035666518056174765,
+      "cell": "I1R0",
+      "seed": 42,
+      "largest_account_community": 399,
+      "common_human_communities": 2243,
+      "largest_common_human_community": 399,
+      "modularity": 0.9893799859472932,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2389,
+      "account_communities": 2389,
+      "singleton_share": 0.30096274591879446,
+      "cell": "I0R0",
+      "seed": 0,
+      "largest_account_community": 4190,
+      "common_human_communities": 1283,
+      "largest_common_human_community": 1046,
+      "modularity": 0.6686702706979926,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2244,
+      "account_communities": 2244,
+      "singleton_share": 0.0053475935828877,
+      "cell": "I1R0",
+      "seed": 0,
+      "largest_account_community": 386,
+      "common_human_communities": 2244,
+      "largest_common_human_community": 386,
+      "modularity": 0.9894183456897815,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2403,
+      "account_communities": 2403,
+      "singleton_share": 0.3021223470661673,
+      "cell": "I0R0",
+      "seed": 1,
+      "largest_account_community": 4195,
+      "common_human_communities": 1274,
+      "largest_common_human_community": 1065,
+      "modularity": 0.668176221091715,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2250,
+      "account_communities": 2250,
+      "singleton_share": 0.004888888888888889,
+      "cell": "I1R0",
+      "seed": 1,
+      "largest_account_community": 388,
+      "common_human_communities": 2250,
+      "largest_common_human_community": 388,
+      "modularity": 0.9894250494259283,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2385,
+      "account_communities": 2385,
+      "singleton_share": 0.2989517819706499,
+      "cell": "I0R0",
+      "seed": 2,
+      "largest_account_community": 4176,
+      "common_human_communities": 1270,
+      "largest_common_human_community": 1081,
+      "modularity": 0.6685369607848566,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2250,
+      "account_communities": 2250,
+      "singleton_share": 0.005333333333333333,
+      "cell": "I1R0",
+      "seed": 2,
+      "largest_account_community": 391,
+      "common_human_communities": 2250,
+      "largest_common_human_community": 391,
+      "modularity": 0.9894044148264569,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2395,
+      "account_communities": 2395,
+      "singleton_share": 0.30229645093945723,
+      "cell": "I0R0",
+      "seed": 3,
+      "largest_account_community": 4206,
+      "common_human_communities": 1283,
+      "largest_common_human_community": 1058,
+      "modularity": 0.6684856171825845,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2252,
+      "account_communities": 2252,
+      "singleton_share": 0.0053285968028419185,
+      "cell": "I1R0",
+      "seed": 3,
+      "largest_account_community": 389,
+      "common_human_communities": 2252,
+      "largest_common_human_community": 389,
+      "modularity": 0.9893908292472412,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2401,
+      "account_communities": 2401,
+      "singleton_share": 0.299875052061641,
+      "cell": "I0R0",
+      "seed": 4,
+      "largest_account_community": 4195,
+      "common_human_communities": 1274,
+      "largest_common_human_community": 1069,
+      "modularity": 0.668465010637502,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2243,
+      "account_communities": 2243,
+      "singleton_share": 0.005349977708426215,
+      "cell": "I1R0",
+      "seed": 4,
+      "largest_account_community": 393,
+      "common_human_communities": 2243,
+      "largest_common_human_community": 393,
+      "modularity": 0.9893709825141571,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2349,
+      "account_communities": 2349,
+      "singleton_share": 0.2950191570881226,
+      "cell": "I0R0",
+      "seed": 123,
+      "largest_account_community": 4142,
+      "common_human_communities": 1247,
+      "largest_common_human_community": 1034,
+      "modularity": 0.6686720879858198,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2250,
+      "account_communities": 2250,
+      "singleton_share": 0.005333333333333333,
+      "cell": "I1R0",
+      "seed": 123,
+      "largest_account_community": 384,
+      "common_human_communities": 2250,
+      "largest_common_human_community": 384,
+      "modularity": 0.9894036603636508,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 294083,
+      "account_nodes": 25573,
+      "pr_nodes": 268510,
+      "communities": 2371,
+      "account_communities": 2371,
+      "singleton_share": 0.30198228595529314,
+      "cell": "I0R0",
+      "seed": 2024,
+      "largest_account_community": 4212,
+      "common_human_communities": 1263,
+      "largest_common_human_community": 1080,
+      "modularity": 0.6682128101366679,
+      "reference_summary_exact_match": true
+    },
+    {
+      "nodes": 138506,
+      "account_nodes": 10808,
+      "pr_nodes": 127698,
+      "communities": 2248,
+      "account_communities": 2248,
+      "singleton_share": 0.005782918149466192,
+      "cell": "I1R0",
+      "seed": 2024,
+      "largest_account_community": 392,
+      "common_human_communities": 2248,
+      "largest_common_human_community": 392,
+      "modularity": 0.9894073801451663,
+      "reference_summary_exact_match": true
+    }
+  ],
+  "pairwise_identity_R0": [
+    {
+      "seed": 42,
+      "common_accounts": 10808,
+      "nmi": 0.7608121647181704,
+      "ari": 0.10366002532226563,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 42,
+        "common_accounts": 10808,
+        "nmi": 0.7608121647181704,
+        "ari": 0.10366002532226563
+      }
+    },
+    {
+      "seed": 0,
+      "common_accounts": 10808,
+      "nmi": 0.7608058451866274,
+      "ari": 0.1022531413728843,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 0,
+        "common_accounts": 10808,
+        "nmi": 0.7608058451866274,
+        "ari": 0.1022531413728843
+      }
+    },
+    {
+      "seed": 1,
+      "common_accounts": 10808,
+      "nmi": 0.7578321626975634,
+      "ari": 0.09972530262215955,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 1,
+        "common_accounts": 10808,
+        "nmi": 0.7578321626975634,
+        "ari": 0.09972530262215955
+      }
+    },
+    {
+      "seed": 2,
+      "common_accounts": 10808,
+      "nmi": 0.7572061638285886,
+      "ari": 0.1021029316223505,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 2,
+        "common_accounts": 10808,
+        "nmi": 0.7572061638285886,
+        "ari": 0.1021029316223505
+      }
+    },
+    {
+      "seed": 3,
+      "common_accounts": 10808,
+      "nmi": 0.7581780703620715,
+      "ari": 0.09988608225259987,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 3,
+        "common_accounts": 10808,
+        "nmi": 0.7581780703620715,
+        "ari": 0.09988608225259987
+      }
+    },
+    {
+      "seed": 4,
+      "common_accounts": 10808,
+      "nmi": 0.7562030271778456,
+      "ari": 0.10365781359365123,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 4,
+        "common_accounts": 10808,
+        "nmi": 0.7562030271778456,
+        "ari": 0.10365781359365123
+      }
+    },
+    {
+      "seed": 123,
+      "common_accounts": 10808,
+      "nmi": 0.7476414213004938,
+      "ari": 0.0973839114542432,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 123,
+        "common_accounts": 10808,
+        "nmi": 0.7476414213004938,
+        "ari": 0.0973839114542432
+      }
+    },
+    {
+      "seed": 2024,
+      "common_accounts": 10808,
+      "nmi": 0.758706719629027,
+      "ari": 0.10527618985423162,
+      "reference_metrics_exact_match": true,
+      "reference_metrics": {
+        "seed": 2024,
+        "common_accounts": 10808,
+        "nmi": 0.758706719629027,
+        "ari": 0.10527618985423162
+      }
+    }
+  ],
+  "aggregates": {
+    "nmi": {
+      "mean": 0.7571731968625485,
+      "sd": 0.0039056206469186843
+    },
+    "ari": {
+      "mean": 0.10174317476179824,
+      "sd": 0.002417013178965648
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "public_case_notice": "Original public GitHub source account keys and usernames are retained for the illustrative case shown in the paper.",
+  "final_test": {
+    "example": {
+      "panels": {
+        "all-known": [
+          {
+            "rank": 1,
+            "actor_key": "actor:login:copilot-pull-request-reviewer[bot]",
+            "login": "copilot-pull-request-reviewer[bot]",
+            "actor_type": "llm_agent_account",
+            "score": 220,
+            "is_target": false
+          },
+          {
+            "rank": 2,
+            "actor_key": "actor:login:copilot-swe-agent[bot]",
+            "login": "copilot-swe-agent[bot]",
+            "actor_type": "llm_agent_account",
+            "score": 161,
+            "is_target": false
+          },
+          {
+            "rank": 3,
+            "actor_key": "actor:id:2642209",
+            "login": "stephentoub",
+            "actor_type": "human_user",
+            "score": 89,
+            "is_target": false
+          },
+          {
+            "rank": 4,
+            "actor_key": "actor:id:6668460",
+            "login": "jkotas",
+            "actor_type": "human_user",
+            "score": 80,
+            "is_target": true
+          },
+          {
+            "rank": 5,
+            "actor_key": "actor:id:10833894",
+            "login": "tarekgh",
+            "actor_type": "human_user",
+            "score": 26,
+            "is_target": false
+          },
+          {
+            "rank": 6,
+            "actor_key": "actor:id:515774",
+            "login": "agocke",
+            "actor_type": "human_user",
+            "score": 25,
+            "is_target": false
+          },
+          {
+            "rank": 7,
+            "actor_key": "actor:id:2813363",
+            "login": "eiriktsarpalis",
+            "actor_type": "human_user",
+            "score": 24,
+            "is_target": false
+          },
+          {
+            "rank": 8,
+            "actor_key": "actor:id:1571408",
+            "login": "jkoritzinsky",
+            "actor_type": "human_user",
+            "score": 23,
+            "is_target": false
+          },
+          {
+            "rank": 9,
+            "actor_key": "actor:id:30635565",
+            "login": "AaronRobinsonMSFT",
+            "actor_type": "human_user",
+            "score": 19,
+            "is_target": false
+          },
+          {
+            "rank": 10,
+            "actor_key": "actor:id:25307628",
+            "login": "MihaZupan",
+            "actor_type": "human_user",
+            "score": 18,
+            "is_target": false
+          }
+        ],
+        "post-filter": [
+          {
+            "rank": 1,
+            "actor_key": "actor:id:2642209",
+            "login": "stephentoub",
+            "actor_type": "human_user",
+            "score": 89,
+            "is_target": false
+          },
+          {
+            "rank": 2,
+            "actor_key": "actor:id:6668460",
+            "login": "jkotas",
+            "actor_type": "human_user",
+            "score": 80,
+            "is_target": true
+          },
+          {
+            "rank": 3,
+            "actor_key": "actor:id:10833894",
+            "login": "tarekgh",
+            "actor_type": "human_user",
+            "score": 26,
+            "is_target": false
+          },
+          {
+            "rank": 4,
+            "actor_key": "actor:id:515774",
+            "login": "agocke",
+            "actor_type": "human_user",
+            "score": 25,
+            "is_target": false
+          },
+          {
+            "rank": 5,
+            "actor_key": "actor:id:2813363",
+            "login": "eiriktsarpalis",
+            "actor_type": "human_user",
+            "score": 24,
+            "is_target": false
+          },
+          {
+            "rank": 6,
+            "actor_key": "actor:id:1571408",
+            "login": "jkoritzinsky",
+            "actor_type": "human_user",
+            "score": 23,
+            "is_target": false
+          },
+          {
+            "rank": 7,
+            "actor_key": "actor:id:30635565",
+            "login": "AaronRobinsonMSFT",
+            "actor_type": "human_user",
+            "score": 19,
+            "is_target": false
+          },
+          {
+            "rank": 8,
+            "actor_key": "actor:id:25307628",
+            "login": "MihaZupan",
+            "actor_type": "human_user",
+            "score": 18,
+            "is_target": false
+          },
+          {
+            "rank": 9,
+            "actor_key": "actor:id:1376924",
+            "login": "akoeplinger",
+            "actor_type": "human_user",
+            "score": 14,
+            "is_target": false
+          },
+          {
+            "rank": 10,
+            "actor_key": "actor:id:8918108",
+            "login": "ericstj",
+            "actor_type": "human_user",
+            "score": 12,
+            "is_target": false
+          }
+        ],
+        "human-only": [
+          {
+            "rank": 1,
+            "actor_key": "actor:id:2642209",
+            "login": "stephentoub",
+            "actor_type": "human_user",
+            "score": 89,
+            "is_target": false
+          },
+          {
+            "rank": 2,
+            "actor_key": "actor:id:6668460",
+            "login": "jkotas",
+            "actor_type": "human_user",
+            "score": 80,
+            "is_target": true
+          },
+          {
+            "rank": 3,
+            "actor_key": "actor:id:10833894",
+            "login": "tarekgh",
+            "actor_type": "human_user",
+            "score": 26,
+            "is_target": false
+          },
+          {
+            "rank": 4,
+            "actor_key": "actor:id:515774",
+            "login": "agocke",
+            "actor_type": "human_user",
+            "score": 25,
+            "is_target": false
+          },
+          {
+            "rank": 5,
+            "actor_key": "actor:id:2813363",
+            "login": "eiriktsarpalis",
+            "actor_type": "human_user",
+            "score": 24,
+            "is_target": false
+          },
+          {
+            "rank": 6,
+            "actor_key": "actor:id:1571408",
+            "login": "jkoritzinsky",
+            "actor_type": "human_user",
+            "score": 23,
+            "is_target": false
+          },
+          {
+            "rank": 7,
+            "actor_key": "actor:id:30635565",
+            "login": "AaronRobinsonMSFT",
+            "actor_type": "human_user",
+            "score": 19,
+            "is_target": false
+          },
+          {
+            "rank": 8,
+            "actor_key": "actor:id:25307628",
+            "login": "MihaZupan",
+            "actor_type": "human_user",
+            "score": 18,
+            "is_target": false
+          },
+          {
+            "rank": 9,
+            "actor_key": "actor:id:1376924",
+            "login": "akoeplinger",
+            "actor_type": "human_user",
+            "score": 14,
+            "is_target": false
+          },
+          {
+            "rank": 10,
+            "actor_key": "actor:id:8918108",
+            "login": "ericstj",
+            "actor_type": "human_user",
+            "score": 12,
+            "is_target": false
+          }
+        ]
+      }
+    }
+  }
+}
